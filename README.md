@@ -130,7 +130,7 @@ ppp is the number of lag observations in the model (AutoRegressive component),
 ddd is the number of times the series is differenced to make it stationary (Integrated component),
 qqq is the size of the moving average window.
 We will use the Statsmodels library to implement the ARIMA model.
-```
+```py
 import statsmodels.api as sm
 from statsmodels.tsa.arima.model import ARIMA
 
